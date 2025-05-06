@@ -37,6 +37,8 @@ if __name__ == "__main__":
 ## 🛠️ 常用命令
 
 ```bash
+# 添加官方源
+epsdk origin add https://sdkframe.anran.xyz/
 epsdk update                # 更新模块源
 epsdk install AIChat        # 安装模块
 epsdk enable AIChat         # 启用模块
