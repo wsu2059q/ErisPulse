@@ -15,7 +15,6 @@ ErisPulse/
 ├── envManager.py      # 环境配置管理
 ├── errors.py          # 自定义异常
 ├── logger.py          # 日志记录
-├── origin.py          # 模块源管理
 ├── sdk.py             # SDK 核心
 ├── util.py            # 工具函数
 └── modules/           # 功能模块目录
@@ -26,7 +25,6 @@ ErisPulse/
 
 - **envManager**: 负责管理环境配置和模块信息，使用 SQLite 数据库存储配置
 - **logger**: 提供日志功能，支持不同日志级别
-- **origin**: 管理模块源，添加、删除、更新模块源等方法在此处
 - **util**: 提供工具函数，拓扑排序、异步执行
 - **modules**: 功能模块目录
 
@@ -136,9 +134,9 @@ result = ExecAsync(async_func, *args, **kwargs)
 
 ```python
 class Main:
-    def __init__(self, sdk, logger):
+    def __init__(self, sdk):
         self.sdk = sdk
-        self.logger = logger
+        self.logger = sdk.logger
 
         # 记录不同级别的日志
         self.logger.info("这是一条信息日志")
@@ -152,7 +150,7 @@ class Main:
 
 ```python
 import asyncio
-from sdk import sdk
+from ErisPulse import sdk
 
 # 初始化 SDK
 sdk.init()
@@ -195,7 +193,7 @@ await run_servers()
 
     ```python
     # env.py
-    from sdk import env
+    from ErisPulse import env
 
     env.set("YUNHU_TOKEN", "114514")
     env.set("LOG_LEVEL", "DEBUG")
