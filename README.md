@@ -1,5 +1,10 @@
 # 🚀 ErisPulse - 异步机器人开发框架
 
+> 基于 Python 的异步机器人开发框架
+
+[![License](https://img.shields.io/github/license/ErisPulse/ErisPulse)](https://github.com/ErisPulse/ErisPulse/blob/main/LICENSE)
+[![PyPI version](https://img.shields.io/pypi/v/erispulse)](https://pypi.org/project/erispulse/)
+
 基于 [RyhBotPythonSDK V2](https://github.com/runoneall/RyhBotPythonSDK2) 构建，由 [sdkFrame](https://github.com/runoneall/sdkFrame) 提供支持的异步机器人开发框架。
 
 ## ✨ 核心特性
