@@ -49,14 +49,14 @@ epsdk install AIChat        # 安装模块
 epsdk enable AIChat         # 启用模块
 epsdk list                  # 查看所有模块
 ```
-更多命令详见 [命令行工具文档](docs/CLI.md)。
+更多命令详见 [命令行工具文档](https://github.com/ErisPulse/ErisPulse/edit/main/docs/CLI.md)。
 
 ## 🧩 模块开发
 
-你可以通过实现自定义模块扩展 ErisPulse 功能。详见 [开发指南](docs/DEVELOPMENT.md)。
+你可以通过实现自定义模块扩展 ErisPulse 功能。详见 [开发指南](https://github.com/ErisPulse/ErisPulse/edit/main/docs/DEVELOPMENT.md)。
 
 ## 📖 文档导航
-- [开发指南](docs/DEVELOPMENT.md) - 完整的开发文档
-- [命令行工具](docs/CLI.md) - CLI 使用手册
-- [源配置指南](docs/ORIGIN.md) - 模块源配置说明
-- [更新日志](docs/CHANGELOG.md) - 版本更新历史
+- [开发指南](https://github.com/ErisPulse/ErisPulse/edit/main/docs/DEVELOPMENT.md) - 完整的开发文档
+- [命令行工具](https://github.com/ErisPulse/ErisPulse/edit/main/docs/CLI.md) - CLI 使用手册
+- [源配置指南](https://github.com/ErisPulse/ErisPulse/edit/main/docs/ORIGIN.md) - 模块源配置说明
+- [更新日志](https://github.com/ErisPulse/ErisPulse/edit/main/docs/CHANGELOG.md) - 版本更新历史
