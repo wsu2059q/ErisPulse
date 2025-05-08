@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ErisPulse',
-    version='1.0.12',
+    version='1.0.13',
     author='艾莉丝·格雷拉特(WSu2059)',
     author_email='wsu2059@qq.com',
     maintainer='runoneall',
@@ -32,7 +32,7 @@ setup(
     entry_points={
         "console_scripts": [
             "epsdk=ErisPulse.__main__:main",
-            "ep=ErisPulse.__main__:main"
+            "ep=ErisPulse.__main__:main",
             "ErisPulse=ErisPulse.__main__:main",
             "ErisPulse-CLI=ErisPulse.__main__:main",
         ]
