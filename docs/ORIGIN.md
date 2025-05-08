@@ -3,7 +3,7 @@
 ## 全功能源列表
 | 源名称 | 类型 | 协议 | 地址 |
 |--------|------|------|------|
-| AsyncRBPS | 异步 | HTTPS | `https://raw.githubusercontent.com/wsu2059q/AsyncRBPS-Origin/refs/heads/main/map.json`
+| ErisPulse-ModuleRepo | 异步 | HTTPS | `https://raw.githubusercontent.com/ErisPulse/ErisPulse-ModuleRepo/main/`
 | SDKFrame CDN | 异步 | HTTPS | `https://sdkframe.anran.xyz/`
 | r1a 同步 | 同步 | HTTPS | `https://runoneall.serv00.net/ryhsdk2/`
 
